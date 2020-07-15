@@ -1,0 +1,112 @@
+.color-floral{
+  color: floralwhite;
+}
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 25px 0px 25px 0px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.footer{
+    background-color: #D1C4E9;
+    margin-top: 30px;
+    padding: 35px 0px 30px 0px;
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+    text-align: center;
+}
+.footer-heading{
+  text-align: center;
+}
+body{
+  padding: 0px 0px 0px 0px;
+  z-index: 0;
+}
+.navbar-dark{
+  background-color: #512DA8;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 200px;
+}
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+.prodimage{
+  margin-top: 40px;
+}
+@media (max-width: 767px) {
+  .prodimage{
+    display: block;
+    margin-top: 50px;
+  }
+  .media-body{
+    margin-top: 20px;
+  }
+  #logo{
+    margin-bottom: 20px;
+  }
+  .breakline{
+    width: 75%;
+  }
+}
+#inquiry_btn{
+  color: floralwhite;
+}
+@media (max-width: 991px) {
+  .carousel-item {
+    height: 250px;
+  }
+}
+@media (max-width: 575px) {
+  .carousel-item {
+    height: 350px;
+  }
+}
+@media (max-width: 300px) {
+  .carousel-item {
+    height: 400px;
+  }
+}
+@media (max-width: 265px) {
+  .carousel-item {
+    height: 450px;
+  }
+}
+.modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+  .modal-header .close {
+    color: floralwhite; }
+
+.modal-body {
+  background: #D1C4E9; }
